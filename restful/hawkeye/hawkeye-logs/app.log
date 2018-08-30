@@ -1,0 +1,2 @@
+2018-08-24 15:47:04,466 [DummyThread-1:139711009274616] [django.request:93] [base:get_response] [WARNING]- Not Found: /api/v1/monitor/database/410846bb-75f0-4695-b2b2-79c0390e3be6/
+2018-08-24 15:47:04,466 [DummyThread-1:139711009274616] [django.request:93] [base:get_response] [WARNING]- Not Found: /api/v1/monitor/database/410846bb-75f0-4695-b2b2-79c0390e3be6/

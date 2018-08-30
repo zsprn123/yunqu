@@ -1,0 +1,1 @@
+ps -ef | egrep "java|daphn|manage.py|celery|gunicorn" | grep -v grep

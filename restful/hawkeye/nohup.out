@@ -1,0 +1,908 @@
+[2018-08-24 15:46:09 +0800] [22903] [INFO] Starting gunicorn 19.7.1
+[2018-08-24 15:46:09 +0800] [22903] [INFO] Listening at: http://127.0.0.1:8001 (22903)
+[2018-08-24 15:46:09 +0800] [22903] [INFO] Using worker: gevent
+[2018-08-24 15:46:09 +0800] [23130] [INFO] Booting worker with pid: 23130
+[2018-08-24 15:46:09 +0800] [23131] [INFO] Booting worker with pid: 23131
+[2018-08-24 15:46:09 +0800] [23132] [INFO] Booting worker with pid: 23132
+[2018-08-24 15:46:09 +0800] [23133] [INFO] Booting worker with pid: 23133
+[2018-08-24 15:46:09 +0800] [23134] [INFO] Booting worker with pid: 23134
+[2018-08-24 15:46:09 +0800] [23135] [INFO] Booting worker with pid: 23135
+[2018-08-24 15:46:10 +0800] [23136] [INFO] Booting worker with pid: 23136
+[2018-08-24 15:46:10 +0800] [23137] [INFO] Booting worker with pid: 23137
+[2018-08-24 15:46:10 +0800] [23138] [INFO] Booting worker with pid: 23138
+[2018-08-24 15:46:10 +0800] [23139] [INFO] Booting worker with pid: 23139
+[2018-08-24 15:46:10 +0800] [23140] [INFO] Booting worker with pid: 23140
+[2018-08-24 15:46:10 +0800] [23141] [INFO] Booting worker with pid: 23141
+2018-08-24 15:46:23,951 INFO     Starting server at tcp:port=8000:interface=127.0.0.1, channel layer hawkeye.asgi:channel_layer.
+2018-08-24 15:46:23,964 INFO     HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2018-08-24 15:46:23,964 INFO     Using busy-loop synchronous mode on channel layer
+2018-08-24 15:46:23,965 INFO     Listening on endpoint tcp:port=8000:interface=127.0.0.1
+2018-08-24 15:46:24,020 - INFO - runworker - Using multi-threaded worker, 100 thread(s).
+2018-08-24 15:46:24,021 - INFO - runworker - Running worker against channel layer default (asgi_redis.core.RedisChannelLayer)
+2018-08-24 15:46:24,047 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:46:24,060 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:46:24,064 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:46:24,071 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:46:24,074 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:46:24,079 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:46:24,087 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:46:24,097 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:46:24,103 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:46:24,106 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:46:24,114 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:46:24,120 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:46:24,263 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:46:24,265 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:46:24,266 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:46:24,268 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:46:24,269 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:46:24,271 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:46:24,289 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:46:24,299 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:46:24,305 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:46:24,313 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:46:24,318 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:46:24,327 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:46:24,337 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:46:24,347 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:46:24,351 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:46:24,371 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:46:24,377 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:46:24,383 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:46:24,440 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:46:24,442 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:46:24,448 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:46:24,454 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:46:24,463 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:46:24,472 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:46:24,482 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:46:24,487 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:46:24,505 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:46:24,512 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:46:24,518 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:46:24,535 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:46:24,537 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:46:24,544 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:46:24,554 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:46:24,565 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:46:24,572 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:46:24,581 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:46:24,596 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:46:24,597 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:46:24,625 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:46:24,631 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:46:24,644 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:46:24,664 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:46:24,674 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:46:24,691 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:46:24,703 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:46:24,708 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:46:24,730 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:46:24,764 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:46:24,778 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:46:24,793 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:46:24,796 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:46:24,811 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:46:24,821 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:46:24,833 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:46:24,842 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:46:24,849 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:46:24,856 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:46:24,867 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:46:24,877 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:46:24,879 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:46:24,895 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:46:24,902 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:46:24,916 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:46:24,927 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:46:24,933 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:46:24,941 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:46:24,954 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:46:24,965 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:46:24,976 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:46:24,989 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:46:25,004 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:46:25,008 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:46:25,014 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:46:25,027 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:46:25,038 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:46:25,048 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:46:25,053 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:46:25,061 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:46:25,069 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:46:25,080 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:46:25,087 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:46:25,100 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:46:25,118 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:46:25,126 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:46:25,135 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:46:25,144 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:46:25,153 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:46:25,154 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+[1;36mcelery multi v4.1.0 (latentcall)[0m
+> Starting nodes...
+	> celery1@dba20873: [1;32mOK[0m
+	> celery2@dba20873: [1;32mOK[0m
+2018-08-24 15:47:02,812 - ERROR - worker - Error processing message with consumer hawkeye.routing.ws_connect:
+Traceback (most recent call last):
+  File "/home/hawkeye/.pyenv/versions/3.6.3/lib/python3.6/site-packages/channels/worker.py", line 119, in run
+    consumer(message, **kwargs)
+  File "/home/hawkeye/.pyenv/versions/3.6.3/lib/python3.6/site-packages/channels/sessions.py", line 78, in inner
+    return func(*args, **kwargs)
+  File "./hawkeye/routing.py", line 28, in ws_connect
+  File "/home/hawkeye/.pyenv/versions/3.6.3/lib/python3.6/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/hawkeye/.pyenv/versions/3.6.3/lib/python3.6/site-packages/django/db/models/query.py", line 403, in get
+    self.model._meta.object_name
+monitor.models.DoesNotExist: Database matching query does not exist.
+2018-08-24 15:47:02,898 - ERROR - worker - Error processing message with consumer hawkeye.routing.ws_connect:
+Traceback (most recent call last):
+  File "/home/hawkeye/.pyenv/versions/3.6.3/lib/python3.6/site-packages/channels/worker.py", line 119, in run
+    consumer(message, **kwargs)
+  File "/home/hawkeye/.pyenv/versions/3.6.3/lib/python3.6/site-packages/channels/sessions.py", line 78, in inner
+    return func(*args, **kwargs)
+  File "./hawkeye/routing.py", line 39, in ws_connect
+  File "/home/hawkeye/.pyenv/versions/3.6.3/lib/python3.6/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/hawkeye/.pyenv/versions/3.6.3/lib/python3.6/site-packages/django/db/models/query.py", line 403, in get
+    self.model._meta.object_name
+authx.models.DoesNotExist: User matching query does not exist.
+[2018-08-24 15:56:00 +0800] [24488] [INFO] Starting gunicorn 19.7.1
+[2018-08-24 15:56:00 +0800] [24488] [INFO] Listening at: http://127.0.0.1:8001 (24488)
+[2018-08-24 15:56:00 +0800] [24488] [INFO] Using worker: gevent
+[2018-08-24 15:56:00 +0800] [24748] [INFO] Booting worker with pid: 24748
+[2018-08-24 15:56:00 +0800] [24749] [INFO] Booting worker with pid: 24749
+[2018-08-24 15:56:00 +0800] [24750] [INFO] Booting worker with pid: 24750
+[2018-08-24 15:56:00 +0800] [24751] [INFO] Booting worker with pid: 24751
+[2018-08-24 15:56:00 +0800] [24752] [INFO] Booting worker with pid: 24752
+[2018-08-24 15:56:00 +0800] [24753] [INFO] Booting worker with pid: 24753
+[2018-08-24 15:56:00 +0800] [24754] [INFO] Booting worker with pid: 24754
+[2018-08-24 15:56:00 +0800] [24757] [INFO] Booting worker with pid: 24757
+[2018-08-24 15:56:01 +0800] [24758] [INFO] Booting worker with pid: 24758
+[2018-08-24 15:56:01 +0800] [24759] [INFO] Booting worker with pid: 24759
+[2018-08-24 15:56:01 +0800] [24760] [INFO] Booting worker with pid: 24760
+[2018-08-24 15:56:01 +0800] [24761] [INFO] Booting worker with pid: 24761
+2018-08-24 15:56:16,766 INFO     Starting server at tcp:port=8000:interface=127.0.0.1, channel layer hawkeye.asgi:channel_layer.
+2018-08-24 15:56:16,775 INFO     HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2018-08-24 15:56:16,776 INFO     Using busy-loop synchronous mode on channel layer
+2018-08-24 15:56:16,776 INFO     Listening on endpoint tcp:port=8000:interface=127.0.0.1
+2018-08-24 15:56:16,954 - INFO - runworker - Using multi-threaded worker, 100 thread(s).
+2018-08-24 15:56:16,956 - INFO - runworker - Running worker against channel layer default (asgi_redis.core.RedisChannelLayer)
+2018-08-24 15:56:16,981 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:56:16,995 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:56:17,002 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:56:17,011 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:56:17,018 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:56:17,025 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:56:17,036 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:56:17,049 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:56:17,051 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:56:17,056 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:56:17,061 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:56:17,067 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:56:17,071 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:56:17,082 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:56:17,086 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:56:17,094 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:56:17,096 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:56:17,101 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:56:17,103 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:56:17,111 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:56:17,121 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:56:17,122 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:56:17,123 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:56:17,125 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:56:17,130 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:56:17,148 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:56:17,162 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:56:17,177 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:56:17,190 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:56:17,212 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:56:17,219 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:56:17,227 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:56:17,231 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:56:17,240 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:56:17,248 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:56:17,253 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:56:17,260 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:56:17,266 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:56:17,275 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:56:17,277 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:56:17,295 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:56:17,300 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:56:17,308 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:56:17,312 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:56:17,314 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:56:17,318 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:56:17,320 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:56:17,322 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:56:17,323 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:56:17,326 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:56:17,328 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:56:17,350 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:56:17,366 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:56:17,367 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:56:17,387 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:56:17,389 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:56:17,399 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:56:17,401 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:56:17,408 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:56:17,410 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:56:17,412 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:56:17,416 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:56:17,430 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:56:17,431 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:56:17,434 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:56:17,434 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:56:17,435 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:56:17,435 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:56:17,436 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:56:17,436 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:56:17,463 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:56:17,473 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:56:17,480 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:56:17,481 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:56:17,483 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:56:17,485 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:56:17,486 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:56:17,498 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:56:17,505 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:56:17,499 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:56:17,516 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:56:17,506 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:56:17,523 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:56:17,529 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:56:17,532 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:56:17,535 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:56:17,537 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:56:17,541 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:56:17,544 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:56:17,546 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:56:17,554 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:56:17,555 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:56:17,556 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:56:17,556 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:56:17,557 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:56:17,557 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:56:17,558 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:56:17,568 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:56:17,569 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 15:56:17,558 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+[1;36mcelery multi v4.1.0 (latentcall)[0m
+> Starting nodes...
+	> celery1@dba20873: [1;32mOK[0m
+	> celery2@dba20873: [1;32mOK[0m
+[2018-08-24 16:02:54 +0800] [25260] [INFO] Starting gunicorn 19.7.1
+[2018-08-24 16:02:54 +0800] [25260] [INFO] Listening at: http://127.0.0.1:8001 (25260)
+[2018-08-24 16:02:54 +0800] [25260] [INFO] Using worker: gevent
+[2018-08-24 16:02:54 +0800] [25520] [INFO] Booting worker with pid: 25520
+[2018-08-24 16:02:54 +0800] [25523] [INFO] Booting worker with pid: 25523
+[2018-08-24 16:02:54 +0800] [25524] [INFO] Booting worker with pid: 25524
+[2018-08-24 16:02:54 +0800] [25525] [INFO] Booting worker with pid: 25525
+[2018-08-24 16:02:54 +0800] [25526] [INFO] Booting worker with pid: 25526
+[2018-08-24 16:02:54 +0800] [25527] [INFO] Booting worker with pid: 25527
+[2018-08-24 16:02:54 +0800] [25528] [INFO] Booting worker with pid: 25528
+[2018-08-24 16:02:54 +0800] [25529] [INFO] Booting worker with pid: 25529
+[2018-08-24 16:02:54 +0800] [25530] [INFO] Booting worker with pid: 25530
+[2018-08-24 16:02:54 +0800] [25532] [INFO] Booting worker with pid: 25532
+[2018-08-24 16:02:54 +0800] [25531] [INFO] Booting worker with pid: 25531
+[2018-08-24 16:02:54 +0800] [25533] [INFO] Booting worker with pid: 25533
+2018-08-24 16:03:11,180 INFO     Starting server at tcp:port=8000:interface=127.0.0.1, channel layer hawkeye.asgi:channel_layer.
+2018-08-24 16:03:11,195 INFO     HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2018-08-24 16:03:11,195 INFO     Using busy-loop synchronous mode on channel layer
+2018-08-24 16:03:11,196 INFO     Listening on endpoint tcp:port=8000:interface=127.0.0.1
+2018-08-24 16:03:13,955 - INFO - runworker - Using multi-threaded worker, 100 thread(s).
+2018-08-24 16:03:13,956 - INFO - runworker - Running worker against channel layer default (asgi_redis.core.RedisChannelLayer)
+2018-08-24 16:03:13,964 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:03:13,968 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:03:13,970 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:03:13,974 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:03:13,976 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:03:13,978 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:03:13,979 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:03:13,981 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:03:13,983 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:03:13,985 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:03:13,986 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:03:13,988 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:03:13,989 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:03:13,995 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:03:13,997 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:03:13,999 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:03:14,010 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:03:14,021 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:03:14,035 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:03:14,042 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:03:14,049 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:03:14,059 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:03:14,076 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:03:14,096 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:03:14,107 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:03:14,113 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:03:14,118 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:03:14,127 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:03:14,137 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:03:14,146 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:03:14,154 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:03:14,162 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:03:14,171 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:03:14,181 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:03:14,216 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:03:14,228 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:03:14,250 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:03:14,252 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:03:14,266 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:03:14,275 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:03:14,287 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:03:14,289 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:03:14,297 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:03:14,305 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:03:14,312 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:03:14,317 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:03:14,319 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:03:14,326 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:03:14,331 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:03:14,332 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:03:14,334 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:03:14,339 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:03:14,341 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:03:14,349 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:03:14,350 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:03:14,358 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:03:14,359 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:03:14,361 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:03:14,362 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:03:14,372 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:03:14,374 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:03:14,379 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:03:14,381 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:03:14,417 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:03:14,470 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:03:14,473 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:03:14,482 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:03:14,491 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:03:14,493 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:03:14,494 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:03:14,494 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:03:14,507 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:03:14,494 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:03:14,533 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:03:14,548 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:03:14,558 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:03:14,568 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:03:14,570 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:03:14,579 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:03:14,594 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:03:14,606 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:03:14,611 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:03:14,620 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:03:14,630 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:03:14,650 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:03:14,661 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:03:14,671 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:03:14,685 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:03:14,704 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:03:14,722 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:03:14,734 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:03:14,794 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:03:14,800 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:03:14,806 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:03:14,818 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:03:14,828 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:03:14,830 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:03:14,839 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:03:14,842 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:03:14,844 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+[1;36mcelery multi v4.1.0 (latentcall)[0m
+> Starting nodes...
+	> celery1@dba20873: [1;32mOK[0m
+	> celery2@dba20873: [1;32mOK[0m
+[2018-08-24 16:50:27 +0800] [27445] [INFO] Starting gunicorn 19.7.1
+[2018-08-24 16:50:27 +0800] [27445] [INFO] Listening at: http://127.0.0.1:8001 (27445)
+[2018-08-24 16:50:27 +0800] [27445] [INFO] Using worker: gevent
+[2018-08-24 16:50:27 +0800] [27707] [INFO] Booting worker with pid: 27707
+[2018-08-24 16:50:27 +0800] [27708] [INFO] Booting worker with pid: 27708
+[2018-08-24 16:50:27 +0800] [27709] [INFO] Booting worker with pid: 27709
+[2018-08-24 16:50:27 +0800] [27710] [INFO] Booting worker with pid: 27710
+[2018-08-24 16:50:27 +0800] [27711] [INFO] Booting worker with pid: 27711
+[2018-08-24 16:50:27 +0800] [27712] [INFO] Booting worker with pid: 27712
+[2018-08-24 16:50:27 +0800] [27714] [INFO] Booting worker with pid: 27714
+[2018-08-24 16:50:27 +0800] [27713] [INFO] Booting worker with pid: 27713
+[2018-08-24 16:50:27 +0800] [27715] [INFO] Booting worker with pid: 27715
+[2018-08-24 16:50:27 +0800] [27716] [INFO] Booting worker with pid: 27716
+[2018-08-24 16:50:28 +0800] [27718] [INFO] Booting worker with pid: 27718
+[2018-08-24 16:50:28 +0800] [27719] [INFO] Booting worker with pid: 27719
+2018-08-24 16:50:46,207 INFO     Starting server at tcp:port=8000:interface=127.0.0.1, channel layer hawkeye.asgi:channel_layer.
+2018-08-24 16:50:46,217 INFO     HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2018-08-24 16:50:46,218 INFO     Using busy-loop synchronous mode on channel layer
+2018-08-24 16:50:46,218 INFO     Listening on endpoint tcp:port=8000:interface=127.0.0.1
+2018-08-24 16:50:49,131 - INFO - runworker - Using multi-threaded worker, 100 thread(s).
+2018-08-24 16:50:49,138 - INFO - runworker - Running worker against channel layer default (asgi_redis.core.RedisChannelLayer)
+2018-08-24 16:50:49,167 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:50:49,175 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:50:49,197 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:50:49,206 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:50:49,215 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:50:49,226 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:50:49,232 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:50:49,241 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:50:49,257 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:50:49,280 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:50:49,285 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:50:49,298 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:50:49,317 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:50:49,334 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:50:49,353 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:50:49,360 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:50:49,368 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:50:49,377 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:50:49,385 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:50:49,410 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:50:49,426 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:50:49,446 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:50:49,453 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:50:49,465 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:50:49,475 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:50:49,484 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:50:49,499 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:50:49,500 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:50:49,511 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:50:49,516 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:50:49,524 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:50:49,531 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:50:49,537 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:50:49,545 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:50:49,550 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:50:49,569 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:50:49,576 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:50:49,598 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:50:49,611 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:50:49,615 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:50:49,621 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:50:49,629 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:50:49,647 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:50:49,649 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:50:49,659 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:50:49,670 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:50:49,682 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:50:49,693 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:50:49,698 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:50:49,700 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:50:49,705 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:50:49,717 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:50:49,735 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:50:49,744 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:50:49,760 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:50:49,763 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:50:49,774 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:50:49,783 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:50:49,785 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:50:49,790 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:50:49,796 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:50:49,801 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:50:49,811 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:50:49,818 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:50:49,827 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:50:49,839 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:50:49,841 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:50:49,854 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:50:49,862 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:50:49,871 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:50:49,874 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:50:49,881 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:50:49,890 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:50:49,901 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:50:49,920 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:50:49,943 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:50:49,955 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:50:49,960 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:50:49,966 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:50:49,973 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:50:50,003 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:50:50,012 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:50:50,031 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:50:50,039 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:50:50,057 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:50:50,068 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:50:50,078 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:50:50,080 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:50:50,092 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:50:50,105 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:50:50,107 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:50:50,111 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:50:50,126 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:50:50,135 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:50:50,151 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:50:50,158 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:50:50,171 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:50:50,192 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:50:50,194 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 16:50:50,194 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+[1;36mcelery multi v4.1.0 (latentcall)[0m
+> Starting nodes...
+	> celery1@dba20873: [1;32mOK[0m
+	> celery2@dba20873: [1;32mOK[0m
+2018-08-24 16:51:16,086 - ERROR - worker - Error processing message with consumer hawkeye.routing.ws_connect:
+Traceback (most recent call last):
+  File "/home/hawkeye/.pyenv/versions/3.6.3/lib/python3.6/site-packages/django/db/models/fields/__init__.py", line 2363, in to_python
+    return uuid.UUID(value)
+  File "/home/hawkeye/.pyenv/versions/3.6.3/lib/python3.6/uuid.py", line 140, in __init__
+    raise ValueError('badly formed hexadecimal UUID string')
+ValueError: badly formed hexadecimal UUID string
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/hawkeye/.pyenv/versions/3.6.3/lib/python3.6/site-packages/channels/worker.py", line 119, in run
+    consumer(message, **kwargs)
+  File "/home/hawkeye/.pyenv/versions/3.6.3/lib/python3.6/site-packages/channels/sessions.py", line 78, in inner
+    return func(*args, **kwargs)
+  File "./hawkeye/routing.py", line 39, in ws_connect
+  File "/home/hawkeye/.pyenv/versions/3.6.3/lib/python3.6/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/hawkeye/.pyenv/versions/3.6.3/lib/python3.6/site-packages/django/db/models/query.py", line 397, in get
+    num = len(clone)
+  File "/home/hawkeye/.pyenv/versions/3.6.3/lib/python3.6/site-packages/django/db/models/query.py", line 254, in __len__
+    self._fetch_all()
+  File "/home/hawkeye/.pyenv/versions/3.6.3/lib/python3.6/site-packages/django/db/models/query.py", line 1179, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/home/hawkeye/.pyenv/versions/3.6.3/lib/python3.6/site-packages/django/db/models/query.py", line 54, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "/home/hawkeye/.pyenv/versions/3.6.3/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 1051, in execute_sql
+    sql, params = self.as_sql()
+  File "/home/hawkeye/.pyenv/versions/3.6.3/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 459, in as_sql
+    where, w_params = self.compile(self.where) if self.where is not None else ("", [])
+  File "/home/hawkeye/.pyenv/versions/3.6.3/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 391, in compile
+    sql, params = node.as_sql(self, self.connection)
+  File "/home/hawkeye/.pyenv/versions/3.6.3/lib/python3.6/site-packages/django/db/models/sql/where.py", line 80, in as_sql
+    sql, params = compiler.compile(child)
+  File "/home/hawkeye/.pyenv/versions/3.6.3/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 391, in compile
+    sql, params = node.as_sql(self, self.connection)
+  File "/home/hawkeye/.pyenv/versions/3.6.3/lib/python3.6/site-packages/django/db/models/lookups.py", line 161, in as_sql
+    rhs_sql, rhs_params = self.process_rhs(compiler, connection)
+  File "/home/hawkeye/.pyenv/versions/3.6.3/lib/python3.6/site-packages/django/db/models/lookups.py", line 260, in process_rhs
+    return super().process_rhs(compiler, connection)
+  File "/home/hawkeye/.pyenv/versions/3.6.3/lib/python3.6/site-packages/django/db/models/lookups.py", line 93, in process_rhs
+    return self.get_db_prep_lookup(value, connection)
+  File "/home/hawkeye/.pyenv/versions/3.6.3/lib/python3.6/site-packages/django/db/models/lookups.py", line 187, in get_db_prep_lookup
+    [get_db_prep_value(value, connection, prepared=True)]
+  File "/home/hawkeye/.pyenv/versions/3.6.3/lib/python3.6/site-packages/django/db/models/fields/__init__.py", line 2354, in get_db_prep_value
+    value = self.to_python(value)
+  File "/home/hawkeye/.pyenv/versions/3.6.3/lib/python3.6/site-packages/django/db/models/fields/__init__.py", line 2368, in to_python
+    params={'value': value},
+django.core.exceptions.ValidationError: ["'null' is not a valid UUID."]
+2018-08-24 16:51:16,229 - ERROR - worker - Error processing message with consumer hawkeye.routing.ws_connect:
+Traceback (most recent call last):
+  File "/home/hawkeye/.pyenv/versions/3.6.3/lib/python3.6/site-packages/django/db/models/fields/__init__.py", line 2363, in to_python
+    return uuid.UUID(value)
+  File "/home/hawkeye/.pyenv/versions/3.6.3/lib/python3.6/uuid.py", line 140, in __init__
+    raise ValueError('badly formed hexadecimal UUID string')
+ValueError: badly formed hexadecimal UUID string
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/hawkeye/.pyenv/versions/3.6.3/lib/python3.6/site-packages/channels/worker.py", line 119, in run
+    consumer(message, **kwargs)
+  File "/home/hawkeye/.pyenv/versions/3.6.3/lib/python3.6/site-packages/channels/sessions.py", line 78, in inner
+    return func(*args, **kwargs)
+  File "./hawkeye/routing.py", line 47, in ws_connect
+  File "/home/hawkeye/.pyenv/versions/3.6.3/lib/python3.6/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/hawkeye/.pyenv/versions/3.6.3/lib/python3.6/site-packages/django/db/models/query.py", line 397, in get
+    num = len(clone)
+  File "/home/hawkeye/.pyenv/versions/3.6.3/lib/python3.6/site-packages/django/db/models/query.py", line 254, in __len__
+    self._fetch_all()
+  File "/home/hawkeye/.pyenv/versions/3.6.3/lib/python3.6/site-packages/django/db/models/query.py", line 1179, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/home/hawkeye/.pyenv/versions/3.6.3/lib/python3.6/site-packages/django/db/models/query.py", line 54, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "/home/hawkeye/.pyenv/versions/3.6.3/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 1051, in execute_sql
+    sql, params = self.as_sql()
+  File "/home/hawkeye/.pyenv/versions/3.6.3/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 459, in as_sql
+    where, w_params = self.compile(self.where) if self.where is not None else ("", [])
+  File "/home/hawkeye/.pyenv/versions/3.6.3/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 391, in compile
+    sql, params = node.as_sql(self, self.connection)
+  File "/home/hawkeye/.pyenv/versions/3.6.3/lib/python3.6/site-packages/django/db/models/sql/where.py", line 80, in as_sql
+    sql, params = compiler.compile(child)
+  File "/home/hawkeye/.pyenv/versions/3.6.3/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 391, in compile
+    sql, params = node.as_sql(self, self.connection)
+  File "/home/hawkeye/.pyenv/versions/3.6.3/lib/python3.6/site-packages/django/db/models/lookups.py", line 161, in as_sql
+    rhs_sql, rhs_params = self.process_rhs(compiler, connection)
+  File "/home/hawkeye/.pyenv/versions/3.6.3/lib/python3.6/site-packages/django/db/models/lookups.py", line 260, in process_rhs
+    return super().process_rhs(compiler, connection)
+  File "/home/hawkeye/.pyenv/versions/3.6.3/lib/python3.6/site-packages/django/db/models/lookups.py", line 93, in process_rhs
+    return self.get_db_prep_lookup(value, connection)
+  File "/home/hawkeye/.pyenv/versions/3.6.3/lib/python3.6/site-packages/django/db/models/lookups.py", line 187, in get_db_prep_lookup
+    [get_db_prep_value(value, connection, prepared=True)]
+  File "/home/hawkeye/.pyenv/versions/3.6.3/lib/python3.6/site-packages/django/db/models/fields/__init__.py", line 2354, in get_db_prep_value
+    value = self.to_python(value)
+  File "/home/hawkeye/.pyenv/versions/3.6.3/lib/python3.6/site-packages/django/db/models/fields/__init__.py", line 2368, in to_python
+    params={'value': value},
+django.core.exceptions.ValidationError: ["'null' is not a valid UUID."]
+[2018-08-24 17:18:07 +0800] [29140] [INFO] Starting gunicorn 19.7.1
+[2018-08-24 17:18:07 +0800] [29140] [INFO] Listening at: http://127.0.0.1:8001 (29140)
+[2018-08-24 17:18:07 +0800] [29140] [INFO] Using worker: gevent
+[2018-08-24 17:18:07 +0800] [29399] [INFO] Booting worker with pid: 29399
+[2018-08-24 17:18:07 +0800] [29400] [INFO] Booting worker with pid: 29400
+[2018-08-24 17:18:07 +0800] [29401] [INFO] Booting worker with pid: 29401
+[2018-08-24 17:18:07 +0800] [29402] [INFO] Booting worker with pid: 29402
+[2018-08-24 17:18:07 +0800] [29403] [INFO] Booting worker with pid: 29403
+[2018-08-24 17:18:07 +0800] [29404] [INFO] Booting worker with pid: 29404
+[2018-08-24 17:18:07 +0800] [29405] [INFO] Booting worker with pid: 29405
+[2018-08-24 17:18:07 +0800] [29406] [INFO] Booting worker with pid: 29406
+[2018-08-24 17:18:07 +0800] [29407] [INFO] Booting worker with pid: 29407
+[2018-08-24 17:18:08 +0800] [29408] [INFO] Booting worker with pid: 29408
+[2018-08-24 17:18:08 +0800] [29409] [INFO] Booting worker with pid: 29409
+[2018-08-24 17:18:08 +0800] [29410] [INFO] Booting worker with pid: 29410
+2018-08-24 17:18:24,502 INFO     Starting server at tcp:port=8000:interface=127.0.0.1, channel layer hawkeye.asgi:channel_layer.
+2018-08-24 17:18:24,514 INFO     HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2018-08-24 17:18:24,514 INFO     Using busy-loop synchronous mode on channel layer
+2018-08-24 17:18:24,514 INFO     Listening on endpoint tcp:port=8000:interface=127.0.0.1
+2018-08-24 17:18:25,618 - INFO - runworker - Using multi-threaded worker, 100 thread(s).
+2018-08-24 17:18:25,622 - INFO - runworker - Running worker against channel layer default (asgi_redis.core.RedisChannelLayer)
+2018-08-24 17:18:25,638 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:18:25,651 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:18:25,657 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:18:25,664 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:18:25,671 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:18:25,679 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:18:25,686 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:18:25,692 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:18:25,705 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:18:25,709 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:18:25,717 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:18:25,725 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:18:25,733 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:18:25,742 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:18:25,753 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:18:25,761 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:18:25,771 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:18:25,774 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:18:25,782 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:18:25,789 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:18:25,791 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:18:25,794 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:18:25,802 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:18:25,813 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:18:25,824 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:18:25,828 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:18:25,841 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:18:25,843 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:18:25,851 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:18:25,859 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:18:25,882 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:18:25,907 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:18:25,911 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:18:25,920 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:18:25,927 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:18:25,933 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:18:25,942 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:18:25,949 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:18:25,956 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:18:25,963 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:18:25,971 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:18:25,981 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:18:25,984 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:18:25,995 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:18:25,998 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:18:25,999 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:18:26,007 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:18:26,017 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:18:26,023 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:18:26,040 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:18:26,051 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:18:26,076 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:18:26,085 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:18:26,091 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:18:26,098 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:18:26,105 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:18:26,114 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:18:26,122 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:18:26,131 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:18:26,152 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:18:26,161 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:18:26,167 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:18:26,177 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:18:26,183 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:18:26,191 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:18:26,198 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:18:26,205 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:18:26,213 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:18:26,221 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:18:26,230 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:18:26,237 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:18:26,254 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:18:26,258 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:18:26,266 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:18:26,279 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:18:26,284 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:18:26,295 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:18:26,313 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:18:26,317 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:18:26,320 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:18:26,336 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:18:26,343 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:18:26,358 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:18:26,367 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:18:26,372 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:18:26,381 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:18:26,393 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:18:26,397 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:18:26,401 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:18:26,405 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:18:26,413 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:18:26,426 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:18:26,429 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:18:26,441 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:18:26,447 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:18:26,466 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:18:26,476 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:18:26,489 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:18:26,499 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:18:26,500 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+[1;36mcelery multi v4.1.0 (latentcall)[0m
+> Starting nodes...
+	> celery1@dba20873: [1;32mOK[0m
+	> celery2@dba20873: [1;32mOK[0m
+[2018-08-24 17:57:23 +0800] [30731] [INFO] Starting gunicorn 19.7.1
+[2018-08-24 17:57:23 +0800] [30731] [INFO] Listening at: http://127.0.0.1:8001 (30731)
+[2018-08-24 17:57:23 +0800] [30731] [INFO] Using worker: gevent
+[2018-08-24 17:57:23 +0800] [30993] [INFO] Booting worker with pid: 30993
+[2018-08-24 17:57:23 +0800] [30994] [INFO] Booting worker with pid: 30994
+[2018-08-24 17:57:23 +0800] [30995] [INFO] Booting worker with pid: 30995
+[2018-08-24 17:57:23 +0800] [30996] [INFO] Booting worker with pid: 30996
+[2018-08-24 17:57:23 +0800] [30997] [INFO] Booting worker with pid: 30997
+[2018-08-24 17:57:23 +0800] [30998] [INFO] Booting worker with pid: 30998
+[2018-08-24 17:57:23 +0800] [31000] [INFO] Booting worker with pid: 31000
+[2018-08-24 17:57:23 +0800] [31002] [INFO] Booting worker with pid: 31002
+[2018-08-24 17:57:23 +0800] [31003] [INFO] Booting worker with pid: 31003
+[2018-08-24 17:57:23 +0800] [31007] [INFO] Booting worker with pid: 31007
+[2018-08-24 17:57:23 +0800] [31008] [INFO] Booting worker with pid: 31008
+[2018-08-24 17:57:24 +0800] [31009] [INFO] Booting worker with pid: 31009
+2018-08-24 17:57:31,126 INFO     Starting server at tcp:port=8000:interface=127.0.0.1, channel layer hawkeye.asgi:channel_layer.
+2018-08-24 17:57:31,128 INFO     HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+2018-08-24 17:57:31,128 INFO     Using busy-loop synchronous mode on channel layer
+2018-08-24 17:57:31,128 INFO     Listening on endpoint tcp:port=8000:interface=127.0.0.1
+2018-08-24 17:57:32,124 - INFO - runworker - Using multi-threaded worker, 100 thread(s).
+2018-08-24 17:57:32,133 - INFO - runworker - Running worker against channel layer default (asgi_redis.core.RedisChannelLayer)
+2018-08-24 17:57:32,142 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:57:32,145 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:57:32,146 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:57:32,147 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:57:32,148 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:57:32,149 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:57:32,151 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:57:32,152 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:57:32,152 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:57:32,153 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:57:32,154 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:57:32,154 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:57:32,156 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:57:32,156 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:57:32,159 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:57:32,160 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:57:32,160 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:57:32,161 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:57:32,164 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:57:32,164 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:57:32,165 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:57:32,166 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:57:32,167 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:57:32,168 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:57:32,169 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:57:32,170 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:57:32,170 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:57:32,171 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:57:32,172 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:57:32,173 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:57:32,174 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:57:32,175 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:57:32,176 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:57:32,176 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:57:32,177 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:57:32,178 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:57:32,179 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:57:32,180 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:57:32,181 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:57:32,182 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:57:32,183 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:57:32,184 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:57:32,184 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:57:32,185 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:57:32,186 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:57:32,187 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:57:32,188 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:57:32,189 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:57:32,190 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:57:32,190 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:57:32,191 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:57:32,192 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:57:32,193 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:57:32,194 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:57:32,194 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:57:32,195 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:57:32,196 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:57:32,197 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:57:32,198 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:57:32,199 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:57:32,199 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:57:32,200 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:57:32,201 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:57:32,202 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:57:32,203 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:57:32,204 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:57:32,205 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:57:32,206 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:57:32,206 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:57:32,207 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:57:32,208 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:57:32,209 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:57:32,215 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:57:32,221 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:57:32,228 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:57:32,241 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:57:32,247 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:57:32,255 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:57:32,262 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:57:32,271 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:57:32,275 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:57:32,288 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:57:32,289 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:57:32,298 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:57:32,299 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:57:32,308 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:57:32,309 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:57:32,318 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:57:32,319 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:57:32,328 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:57:32,337 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:57:32,343 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:57:32,348 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:57:32,360 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:57:32,369 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:57:32,379 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:57:32,380 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:57:32,389 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:57:32,390 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+2018-08-24 17:57:32,391 - INFO - worker - Listening on channels websocket.connect, websocket.disconnect, websocket.receive
+[1;36mcelery multi v4.1.0 (latentcall)[0m
+> Starting nodes...
+	> celery1@dba20873: [1;32mOK[0m
+	> celery2@dba20873: [1;32mOK[0m
+2018-08-27 17:04:19,572 - ERROR - worker - Error processing message with consumer hawkeye.routing.ws_connect:
+Traceback (most recent call last):
+  File "/home/hawkeye/.pyenv/versions/3.6.3/lib/python3.6/site-packages/channels/worker.py", line 119, in run
+    consumer(message, **kwargs)
+  File "/home/hawkeye/.pyenv/versions/3.6.3/lib/python3.6/site-packages/channels/sessions.py", line 78, in inner
+    return func(*args, **kwargs)
+  File "./hawkeye/routing.py", line 39, in ws_connect
+  File "/home/hawkeye/.pyenv/versions/3.6.3/lib/python3.6/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/hawkeye/.pyenv/versions/3.6.3/lib/python3.6/site-packages/django/db/models/query.py", line 403, in get
+    self.model._meta.object_name
+authx.models.DoesNotExist: User matching query does not exist.
+2018-08-27 17:04:19,787 - ERROR - worker - Error processing message with consumer hawkeye.routing.ws_connect:
+Traceback (most recent call last):
+  File "/home/hawkeye/.pyenv/versions/3.6.3/lib/python3.6/site-packages/channels/worker.py", line 119, in run
+    consumer(message, **kwargs)
+  File "/home/hawkeye/.pyenv/versions/3.6.3/lib/python3.6/site-packages/channels/sessions.py", line 78, in inner
+    return func(*args, **kwargs)
+  File "./hawkeye/routing.py", line 47, in ws_connect
+  File "/home/hawkeye/.pyenv/versions/3.6.3/lib/python3.6/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/hawkeye/.pyenv/versions/3.6.3/lib/python3.6/site-packages/django/db/models/query.py", line 403, in get
+    self.model._meta.object_name
+authx.models.DoesNotExist: User matching query does not exist.
+2018-08-28 13:39:04,884 - ERROR - worker - Error processing message with consumer hawkeye.routing.ws_connect:
+Traceback (most recent call last):
+  File "/home/hawkeye/.pyenv/versions/3.6.3/lib/python3.6/site-packages/channels/worker.py", line 119, in run
+    consumer(message, **kwargs)
+  File "/home/hawkeye/.pyenv/versions/3.6.3/lib/python3.6/site-packages/channels/sessions.py", line 78, in inner
+    return func(*args, **kwargs)
+  File "./hawkeye/routing.py", line 28, in ws_connect
+  File "/home/hawkeye/.pyenv/versions/3.6.3/lib/python3.6/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/hawkeye/.pyenv/versions/3.6.3/lib/python3.6/site-packages/django/db/models/query.py", line 403, in get
+    self.model._meta.object_name
+monitor.models.DoesNotExist: Database matching query does not exist.

@@ -1,0 +1,8 @@
+site_name: 鹰眼重构文档
+theme: 'material'
+pages:
+    - 概览: index.md
+    - 数据库功能:
+      - 顶级活动: top_activity.md
+      - 性能指标: performance.md
+
