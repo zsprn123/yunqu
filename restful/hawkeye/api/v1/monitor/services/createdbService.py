@@ -35,7 +35,7 @@ def createdb(request):
     else:
         if request.data.get('db_type') == DatabaseType.MYSQL.value:
             query1 = 'select @@VERSION'
-            query2 = 'show slave status'
+            query2 = 'show subordinate status'
             flag, json_data = run_sql_with_dict(conn, query1)
             request.data['version'] = json_data[0].get('@@VERSION')
             flag, json_data = run_sql_with_dict(conn, query2)
