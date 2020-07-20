@@ -39,7 +39,7 @@ class Database(CoreModel):
     sqlmon_format = models.CharField(max_length=100, default='HTML')
     dg_stats = models.BooleanField(default=False)
     hist_sqlmon = models.BooleanField(default=False)
-    master_db = models.ForeignKey('self', blank=True, null=True, on_delete=models.CASCADE)
+    main_db = models.ForeignKey('self', blank=True, null=True, on_delete=models.CASCADE)
     owner = models.ForeignKey(User, blank=True, null=True, on_delete=models.CASCADE)
 
     def get_password(self):
@@ -98,9 +98,9 @@ class Database(CoreModel):
         else:
             return ''
 
-    def slave_ids(self):
-        slave_ids = Database.objects.only('id').filter(master_db=self.id)
-        return slave_ids
+    def subordinate_ids(self):
+        subordinate_ids = Database.objects.only('id').filter(main_db=self.id)
+        return subordinate_ids
 
     def __str__(self):
         return self.alias

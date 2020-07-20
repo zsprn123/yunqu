@@ -58,7 +58,7 @@ def mysql_performance(database):
 
 
 def mysql_activity(database):
-    query = "SELECT * FROM information_schema.processlist\n        WHERE command != 'Sleep' and id != CONNECTION_ID()\n        and state not in\n          ('Master has sent all binlog to slave; waiting for binlog to be up','Slave has read all relay log; waiting for the slave I/O thread t','Waiting for master to send event')\n        ORDER BY id"
+    query = "SELECT * FROM information_schema.processlist\n        WHERE command != 'Sleep' and id != CONNECTION_ID()\n        and state not in\n          ('Main has sent all binlog to subordinate; waiting for binlog to be up','Subordinate has read all relay log; waiting for the subordinate I/O thread t','Waiting for main to send event')\n        ORDER BY id"
     state_list = [
      ('optimizing', 'preparing', 'statistics'),
      ('copy to tmp table', 'Copying to tmp table', 'Copying to tmp table on disk', 'Creating tmp table',
@@ -76,17 +76,17 @@ def mysql_activity(database):
      ('checking privileges on cached query', 'checking query cache for query', 'invalidating query cache entries',
  'sending cached result to client', 'storing result in query cache', 'Waiting for query cache lock'),
      ('Reading from net', 'Writing to net', 'Sending data'),
-     ('Finished reading one binlog; switching to next binlog', 'Sending binlog event to slave',
- 'Master has sent all binlog to slave; waiting for binlog to be up', ' Waiting to finalize termination',
+     ('Finished reading one binlog; switching to next binlog', 'Sending binlog event to subordinate',
+ 'Main has sent all binlog to subordinate; waiting for binlog to be up', ' Waiting to finalize termination',
  'Waiting to finalize termination'),
-     ('Waiting for master update', 'Connecting to master', 'Checking master version', 'Registering slave on master',
+     ('Waiting for main update', 'Connecting to main', 'Checking main version', 'Registering subordinate on main',
  'Requesting binlog dump', 'Waiting to reconnect after a failed binlog dump request',
- 'Reconnecting after a failed binlog dump request', 'Waiting for master to send event',
- 'Queueing master event to the relay log', 'Waiting to reconnect after a failed master event read',
- 'Reconnecting after a failed master event read', 'Waiting for the slave SQL thread to free enough relay log space',
- 'Waiting for slave mutex on exit', 'Waiting for its turn to commit'),
+ 'Reconnecting after a failed binlog dump request', 'Waiting for main to send event',
+ 'Queueing main event to the relay log', 'Waiting to reconnect after a failed main event read',
+ 'Reconnecting after a failed main event read', 'Waiting for the subordinate SQL thread to free enough relay log space',
+ 'Waiting for subordinate mutex on exit', 'Waiting for its turn to commit'),
      ('Making temp file', 'Waiting for the next event in relay log', 'Reading event from the relay log',
- 'Slave has read all relay log; waiting for the slave I/O thread t', 'Waiting for slave mutex on exit')]
+ 'Subordinate has read all relay log; waiting for the subordinate I/O thread t', 'Waiting for subordinate mutex on exit')]
     wait_classses = [
      'Optimization',
      'Tmp Table',
@@ -96,7 +96,7 @@ def mysql_activity(database):
      'Lock',
      'Query Cache',
      'Network',
-     'Master Thread',
+     'Main Thread',
      'I/O Thread',
      'SQL Thread',
      'Others']

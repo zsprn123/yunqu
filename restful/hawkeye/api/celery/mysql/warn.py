@@ -13,7 +13,7 @@ from alarm.enum.alarm_warn_enum import WARN_ENUM
 from common.util import build_exception_from_java
 
 def mysql_standby_warn(database):
-    query = 'show slave status'
+    query = 'show subordinate status'
     flag, json_data = run_sql(database, query)
     if not flag:
         print(str(build_exception_from_java(json_data)))
@@ -21,10 +21,10 @@ def mysql_standby_warn(database):
     created_at = datetime.now().replace(microsecond=0)
     warn = WARN_ENUM.get(database.db_type).Standby_Latency_Warn
     if json_data:
-        if json_data[0].get('Seconds_Behind_Master'):
-            options = {'master_host':json_data.get('Master_Host'), 
-             'master_user':json_data.get('Master_User'), 
-             'master_port':json_data.get('Master_Port')}
-            p = Performance(inst_id=database.db_name, name=warn.name, value=json_data.get('Seconds_Behind_Master'), created_at=created_at)
+        if json_data[0].get('Seconds_Behind_Main'):
+            options = {'main_host':json_data.get('Main_Host'), 
+             'main_user':json_data.get('Main_User'), 
+             'main_port':json_data.get('Main_Port')}
+            p = Performance(inst_id=database.db_name, name=warn.name, value=json_data.get('Seconds_Behind_Main'), created_at=created_at)
             customized_warn_scanner(warn, p, database, False, options)
 # okay decompiling ./restful/hawkeye/api/celery/mysql/warn.pyc
