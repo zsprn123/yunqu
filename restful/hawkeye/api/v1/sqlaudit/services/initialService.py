@@ -80,7 +80,7 @@ def init_audit_strategy(database):
 def get_database_schema_list(database):
     schema_query = {'oracle':"select\n                                username\n                            from\n                                dba_users\n                            where\n                                username not in ('MGMT_VIEW','MDDATA','MDSYS','SI_INFORMTN_SCHEMA','ORDPLUGINS','ORDSYS','OLAPSYS','SYSMAN','ANONYMOUS','XDB','CTXSYS','EXFSYS','WMSYS','ORACLE_OCM','DBSNMP','TSMSYS','DMSYS','DIP','OUTLN','SYSTEM','SYS','APPQOSSYS', 'FLOWS_FILES', 'JWT', 'ORDDATA', 'OWBSYS', 'OWBSYS_AUDIT', 'SCOTT', 'SPATIAL_CSW_ADMIN_USR', 'SPATIAL_WFS_ADMIN_USR', 'XS$NULL', 'YUNQU') and username not like 'APEX%'\n                            order by username", 
      'db2':'\n        select rtrim(schemaname) username from syscat.schemata order by schemaname', 
-     'sqlserver':'\n        SELECT NAME [USERNAME] FROM master.dbo.sysdatabases'}
+     'sqlserver':'\n        SELECT NAME [USERNAME] FROM main.dbo.sysdatabases'}
     flag, result = run_sql(database, schema_query.get(database.db_type))
     if not flag:
         return []

@@ -11,7 +11,7 @@ class MySQLWarnCategory(Enum):
     Standby_Latency_Warn = {'description':'Mysql ()', 
      'warn_threshold':'60',  'critical_threshold':'300',  'alarm_attr':'value', 
      'alarm_name':'Standby_Latency_Warn', 
-     'message_template':'{warn_level} !! :{message}() (:{master_host} :{master_port} :{master_user}) :{created_at} :{alias}', 
+     'message_template':'{warn_level} !! :{message}() (:{main_host} :{main_port} :{main_user}) :{created_at} :{alias}', 
      'link':{'url':'performance', 
       'type':'database',  'json':{}}}
     Connection_Warn = {'description':'Mysql ', 

@@ -97,7 +97,7 @@ def get_sqlserver_session_detail(database, session_id):
     detail_format = get_default_detail_format()
     detai_query = f'''SELECT
             ses.SESSION_ID,
-            (select name from master..sysdatabases where dbid = req.database_id) DB_NAME,
+            (select name from main..sysdatabases where dbid = req.database_id) DB_NAME,
             --client info
             ses.LOGIN_NAME,
             CONVERT(VARCHAR(24), ses.LOGIN_TIME, 120) LOGON_TIME,
@@ -218,7 +218,7 @@ def all_sessions(pk):
     query = {'oracle':"\n                  select\n                s.sid || ',' || s.serial# || '@' || s.inst_id session_id,\n                s.username,\n                s.status,\n                s.sql_id,\n                case when s.state = 'WAITING' then s.event else 'ON CPU' end event,\n                machine,\n                s.program,\n                to_char(s.logon_time,'YYYY-MON-DD HH24:MI') logon_time,\n                round(Value / 1024 / 1024,1) PGA_MB\n            from\n                gv$session s, V$sesstat St, V$statname Sn\n                 Where St.Sid = s.Sid\n   And St.Statistic# = Sn.Statistic#\n   And Sn.Name Like 'session pga memory'", 
      'mysql':'\n        SELECT * FROM\n    information_schema.processlist', 
      'db2':'select agent_id, db_name, appl_name, authid, appl_id,\n  appl_status, client_nname MACHINE\n  FROM SYSIBMADM.APPLICATIONS', 
-     'sqlserver':'\n        SELECT\n            ses.SESSION_ID,\n            (select name from master..sysdatabases where dbid = req.database_id) DB_NAME,\n            ses.LOGIN_NAME,\n            CONVERT(VARCHAR(24), ses.LOGIN_TIME, 120) LOGON_TIME,\n            ses.HOST_NAME,\n            ses.PROGRAM_NAME,\n            --application\n            ses.status STATUS,\n            --current request\n            req.STATUS REQ_STATUS,\n            CONVERT(VARCHAR(24), req.start_time, 120) START_TIME,\n            req.ROW_COUNT REQ_ROW_COUNT,\n            con.CLIENT_NET_ADDRESS,\n            substring(sys.fn_sqlvarbasetostr(req.sql_handle),3,1000) SQL_ID\n        FROM sys.dm_exec_sessions ses\n        inner join sys.dm_exec_connections con on ses.session_id = con.session_id\n        left join sys.dm_exec_requests req on req.session_id = ses.session_id\n        outer APPLY sys.dm_exec_sql_text(sql_handle) AS sqltext'}
+     'sqlserver':'\n        SELECT\n            ses.SESSION_ID,\n            (select name from main..sysdatabases where dbid = req.database_id) DB_NAME,\n            ses.LOGIN_NAME,\n            CONVERT(VARCHAR(24), ses.LOGIN_TIME, 120) LOGON_TIME,\n            ses.HOST_NAME,\n            ses.PROGRAM_NAME,\n            --application\n            ses.status STATUS,\n            --current request\n            req.STATUS REQ_STATUS,\n            CONVERT(VARCHAR(24), req.start_time, 120) START_TIME,\n            req.ROW_COUNT REQ_ROW_COUNT,\n            con.CLIENT_NET_ADDRESS,\n            substring(sys.fn_sqlvarbasetostr(req.sql_handle),3,1000) SQL_ID\n        FROM sys.dm_exec_sessions ses\n        inner join sys.dm_exec_connections con on ses.session_id = con.session_id\n        left join sys.dm_exec_requests req on req.session_id = ses.session_id\n        outer APPLY sys.dm_exec_sql_text(sql_handle) AS sqltext'}
     database = Database.objects.get(pk=pk)
     detail_query = query.get(database.db_type)
     flag, json_data = run_sql(database, detail_query)

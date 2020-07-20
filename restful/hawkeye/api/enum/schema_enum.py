@@ -139,7 +139,7 @@ def get_object_type(database, owner, object_name, options, db_name=None):
 
 
 def sqlserver_schema_data(database):
-    query = "\n    SELECT NAME FROM master.dbo.sysdatabases where name not in ('master','model','tempdb', 'msdb')"
+    query = "\n    SELECT NAME FROM main.dbo.sysdatabases where name not in ('main','model','tempdb', 'msdb')"
     flag, json_data = run_sql(database, query)
     if not flag:
         raise build_exception_from_java(json_data)
@@ -162,7 +162,7 @@ Rows_Query = {'oracle':'\n    select\n  OWNER,\n  TABLE_NAME,\n  num_rows as "RO
  'mysql':"\n    select TABLE_SCHEMA OWNER, TABLE_NAME, TABLE_ROWS as ROWS from information_schema.tables\n    where\n    TABLE_SCHEMA not in ('information_schema', 'mysql', 'performance_schema', 'sys', 'test')\n    and TABLE_ROWS >=0"}
 
 def sqlserver_rows_data(database):
-    query = "\n    SELECT NAME FROM master.dbo.sysdatabases where name not in ('master', 'tempdb', 'model', 'msdb')"
+    query = "\n    SELECT NAME FROM main.dbo.sysdatabases where name not in ('main', 'tempdb', 'model', 'msdb')"
     flag, json_data = run_sql(database, query)
     if not flag:
         raise build_exception_from_java(json_data)

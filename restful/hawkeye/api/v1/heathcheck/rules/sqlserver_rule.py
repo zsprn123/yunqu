@@ -153,7 +153,7 @@ class Check_Log_Space(SQLServer_Secure_Rule):
 class Check_Disk_Space(SQLServer_Secure_Rule):
 
     def __init__(self, id, name):
-        super(Check_Disk_Space, self).__init__('EXEC master.dbo.xp_fixeddrives', '10G', {}, '')
+        super(Check_Disk_Space, self).__init__('EXEC main.dbo.xp_fixeddrives', '10G', {}, '')
 
     def set_result_raw(self, resultSet):
         self.result_raw = [x for x in resultSet if x[1] < 10240]
@@ -282,7 +282,7 @@ class Check_Unuse_Index(SQLServer_Performance_Rule):
 class Check_Backup(SQLServer_Backup_Rule):
 
     def __init__(self, id, name):
-        super(Check_Backup, self).__init__("select top 1  mdb.[backup_start_date] '',\n        mdb.[backup_finish_date]  AS '',\n       mdb.name AS '',\n       mdbf.physical_name AS '',\n       CASE mdb.type\n              WHEN 'D' THEN ''\n              WHEN 'I'THEN ''\n              WHEN 'L' THEN ''\n              WHEN 'F' THEN ''\n              WHEN 'G' THEN 'Differential file'\n              WHEN 'P' THEN 'Partial'\n              WHEN 'Q' THEN 'Differential partial'\n              ELSE ''\n       END AS '',\n       CASE mdb.recovery_model\n              WHEN 'SIMPLE' THEN ''\n              WHEN 'FULL' THEN ''\n       ELSE 'NULL'\n       END AS '',\n       mdb.first_lsn AS 'lsn',\n       mdb.last_lsn AS 'lsn',\n       mdbf.backup_size AS '',\n       mdbp.physical_device_name AS ''\nfrom msdb.dbo.backupset AS mdb,\n       msdb.dbo.backupmediafamily AS mdbp,\n              (select\n                     backup_set_id,\n                     backup_size,\n                     physical_name\n              from msdb.dbo.backupfile\n              --where logical_name = 'master'     --,\n              ) AS mdbf\nwhere  mdb.backup_set_id = mdbf.backup_set_id\nand mdb.media_set_id = mdbp.media_set_id  order by '' desc\n", '', {}, '')
+        super(Check_Backup, self).__init__("select top 1  mdb.[backup_start_date] '',\n        mdb.[backup_finish_date]  AS '',\n       mdb.name AS '',\n       mdbf.physical_name AS '',\n       CASE mdb.type\n              WHEN 'D' THEN ''\n              WHEN 'I'THEN ''\n              WHEN 'L' THEN ''\n              WHEN 'F' THEN ''\n              WHEN 'G' THEN 'Differential file'\n              WHEN 'P' THEN 'Partial'\n              WHEN 'Q' THEN 'Differential partial'\n              ELSE ''\n       END AS '',\n       CASE mdb.recovery_model\n              WHEN 'SIMPLE' THEN ''\n              WHEN 'FULL' THEN ''\n       ELSE 'NULL'\n       END AS '',\n       mdb.first_lsn AS 'lsn',\n       mdb.last_lsn AS 'lsn',\n       mdbf.backup_size AS '',\n       mdbp.physical_device_name AS ''\nfrom msdb.dbo.backupset AS mdb,\n       msdb.dbo.backupmediafamily AS mdbp,\n              (select\n                     backup_set_id,\n                     backup_size,\n                     physical_name\n              from msdb.dbo.backupfile\n              --where logical_name = 'main'     --,\n              ) AS mdbf\nwhere  mdb.backup_set_id = mdbf.backup_set_id\nand mdb.media_set_id = mdbp.media_set_id  order by '' desc\n", '', {}, '')
 
     def is_failed(self):
         if len(self.result_raw) == 0:
@@ -306,7 +306,7 @@ class Check_Backup(SQLServer_Backup_Rule):
 class Check_Error_Log(SQLServer_Management_Rule):
 
     def __init__(self, id, name):
-        super(Check_Error_Log, self).__init__('EXEC master.dbo.xp_readerrorlog 0, 1, null, "Error", "%s", "%s", "desc"' % (
+        super(Check_Error_Log, self).__init__('EXEC main.dbo.xp_readerrorlog 0, 1, null, "Error", "%s", "%s", "desc"' % (
          (datetime.datetime.now() - (datetime.timedelta(days=30))).strftime('%Y-%m-%d %H:%M:%S'),
          datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')), '', {}, '')
 
