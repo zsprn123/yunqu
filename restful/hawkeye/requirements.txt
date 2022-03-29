@@ -46,4 +46,4 @@ sqlparse==0.2.4
 django-debug-toolbar==1.9.1
 gunicorn==19.7.1
 gevent==1.2.2
-paramiko==2.4.0
+paramiko==2.10.1
