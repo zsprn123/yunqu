@@ -28,7 +28,7 @@ olefile==0.44
 Pillow==4.2.0
 psycopg2==2.7.1
 pycrypto==2.6.1
-PyJWT==1.5.3
+PyJWT==2.4.0
 pytz==2017.2
 redis==2.10.6
 requests==2.18.4
